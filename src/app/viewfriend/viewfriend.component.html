@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-mg-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div *ngFor="let i of data" class="col col-12 col-sm-6 col-mg-4 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">{{i.name}}</h5>
+                          <p class="card-text">Friend: {{i.friendName}}</p>
+                          <p class="card-text">Nick Name: {{i.friendNickName}}</p>
+                          <a href="#" class="btn btn-primary">View</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
